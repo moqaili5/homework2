@@ -30,8 +30,7 @@ public class HW : MonoBehaviour
         }
 
         Debug.Log("Funny Random Sentence: " + sentence);
-
-        // A predefined funny sentence
+        Debug.Log("Funny Random" + sentence);
         string fixedSentence = "The monkey wore a hat while driving a car full of pizza.";
         Debug.Log("Fixed Funny Sentence: " + fixedSentence);
     }
